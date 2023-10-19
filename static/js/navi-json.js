@@ -21,44 +21,26 @@
     icon: 'fa-folder-open',
     naviData: [
       {
-        icon: 'item-lh.jpg',
-        name: '蓝湖',
-        txt: '管理员-Lynn',
+        icon: 'item-figma.jpg',
+        name: 'Figma',
+        txt: '管理员-',
         url: '',
         btns: [
           {
             name: '',
-            env: '客户端',
-            url: 'https://lanhuapp.com/dashboard/#/item?fid=all&tid=20612736-d6f8-4fff-81ee-02610d9ec22e',
+            env: 'APP',
+            url: 'https://www.figma.com/file/T5q9ge8OVJM7LXSxz4GaKQ/Mos-App?type=design&node-id=0%3A1&mode=design&t=1oFr1GvYLcmUTUc9-1',
           },
           {
             name: '',
-            env: 'pc端',
-            url: 'https://lanhuapp.com/web/#/item/project/stage?pid=f3e4f1d2-0f22-4208-adc2-9eae7f1d1495&teamId=332e77f1-bd5f-459a-a062-b14432a6b587&_t=2784543060&tid=332e77f1-bd5f-459a-a062-b14432a6b587',
-          },
-        ]
-      },
-      {
-        icon: 'item-figma.jpg',
-        name: 'Figma',
-        txt: '管理员-',
-        url: 'https://www.figma.com/file/3hQxI9jcrcD0Jzq2pedGBp/MosApp?type=design&node-id=4608-114091&mode=design&t=wXnplvpvrrZE2Bvu-0',
-        btns: [
-          {
-            name: '',
-            env: 'dev',
-            url: '',
+            env: 'PC',
+            url: 'https://www.figma.com/file/z74YoE0Usx5aOpzRQdTNkZ/MOS-PC-%E5%A4%96%E5%8F%91?type=design&node-id=0%3A1&mode=design&t=lKe8ROBFdXvhgojv-1',
           },
           {
             name: '',
-            env: 'uat',
-            url: '',
+            env: '频道',
+            url: 'https://www.figma.com/file/UYGKZGU1kfVeNdx3jvQ4vM/mos-channel?type=design&node-id=0%3A1&mode=design&t=FpyRrFcFdUsxNGWD-1',
           },
-          {
-            name: '',
-            env: 'prod',
-            url: '',
-          }
         ]
       },
       {
