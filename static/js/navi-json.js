@@ -5,14 +5,73 @@
     icon: 'fa-pause',
     naviData: [
       {
-        icon: 'logo3.png',
-        name: 'MosApp运营后台',
-        txt: '管理员-Luffy',
-        url: 'https://managerofmos123-test.metathought.cc/',
+        icon: 'favicon.ico',
+        name: 'Skybooking Net',
+        txt: '',
+        url: '',
         btns: [
-
+          {
+            name: '',
+            env: 'TEST',
+            url: 'http://test.skybooking.net',
+          },
+          {
+            name: '',
+            env: 'PROD',
+            url: 'https://skybooking.net',
+          },
         ]
-      }
+      },
+      {
+        icon: 'favicon.ico',
+        name: 'Skybooking H5',
+        txt: '',
+        url: '',
+        btns: [
+          {
+            name: '',
+            env: 'TEST',
+            url: 'http://test-h5.skybooking.net/',
+          },
+          {
+            name: '',
+            env: 'PROD',
+            url: 'http://skybooking.metathought.cc/',
+          }
+        ]
+      },
+      {
+        icon: 'favicon.ico',
+        name: 'Skybooking Backoffice',
+        txt: '',
+        url: '',
+        btns: [
+          {
+            name: '',
+            env: 'TEST',
+            url: 'http://test.skybookingadmin.net',
+          },
+          {
+            name: '',
+            env: 'PROD',
+            url: 'http://skybookingadmin.net',
+          },
+        ]
+      },
+      {
+        icon: 'favicon.ico',
+        name: 'Skybooking backoffice new',
+        txt: '',
+        url: '',
+        btns: [
+          {
+            name: '',
+            env: 'TEST',
+            url: 'http://54.254.244.133:6007/',
+          },
+        ]
+      },
+      
     ]
   },
   // 产研协作工具
@@ -23,77 +82,26 @@
       {
         icon: 'item-figma.jpg',
         name: 'Figma',
-        txt: '管理员-',
+        txt: 'Manager-Ramviswa',
         url: '',
         btns: [
           {
             name: '',
-            env: 'APP',
-            url: 'https://www.figma.com/file/T5q9ge8OVJM7LXSxz4GaKQ/Mos-App?type=design&node-id=0%3A1&mode=design&t=1oFr1GvYLcmUTUc9-1',
+            env: 'FLIGHT',
+            url: 'https://www.figma.com/file/vquvLIDD9WH7kQrrHXxkJm/Flight-Booking?type=design&mode=design&t=ByNMhEW6W1jU6pGL-0',
           },
           {
             name: '',
-            env: 'PC',
-            url: 'https://www.figma.com/file/z74YoE0Usx5aOpzRQdTNkZ/MOS-PC-%E5%A4%96%E5%8F%91?type=design&node-id=0%3A1&mode=design&t=lKe8ROBFdXvhgojv-1',
+            env: 'HOTEL',
+            url: 'https://www.figma.com/file/BWRaXDQkicI8vKMdJxF7HN/Hotel-Booking?type=design&mode=design&t=ByNMhEW6W1jU6pGL-0',
           },
-          {
-            name: '',
-            env: '频道',
-            url: 'https://www.figma.com/file/UYGKZGU1kfVeNdx3jvQ4vM/mos-channel?type=design&node-id=0%3A1&mode=design&t=FpyRrFcFdUsxNGWD-1',
-          },
-        ]
-      },
-      {
-        icon: 'item-modao.jpeg',
-        name: '墨刀',
-        txt: '管理员-Jeff',
-        url: '',
-        btns: [
-          {
-            name: '',
-            env: '客户端',
-            url: 'https://modao.cc/app/i2TyThiFrpc01dDpyBwPyH#screen=sldk1pnlio88ity',
-          },
-          {
-            name: '',
-            env: '运营后台',
-            url: 'https://modao.cc/app/EA5h7yZwrkr2diGWo2hAO#screen=sliwq5f229rk7cu',
-          },
-          {
-            name: '',
-            env: 'PC',
-            url: 'https://modao.cc/app/8bHviUOhrpzwsu9P8cnF5T',
-          },
-        ]
-      },
-      {
-        icon: 'item-chandan.jpg',
-        name: '禅道',
-        txt: '管理员-Anna',
-        url: 'https://chandao.metathought.cc',
-        btns: [
-          {
-            name: '',
-            env: 'dev',
-            url: '',
-          },
-          {
-            name: '',
-            env: 'uat',
-            url: '',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: '',
-          }
         ]
       },
       {
         icon: 'item-jira.jpg',
-        name: 'Jira',
-        txt: '管理员-Jeff',
-        url: 'https://im199.atlassian.net/jira/polaris/projects/MIM/ideas/view/2883951',
+        name: 'JIRA',
+        txt: 'Manager-Ramviswa',
+        url: 'https://u-pay.atlassian.net/jira/software/projects/OTA/boards/43',
         btns: [
           {
             name: '',
@@ -122,7 +130,7 @@
       {
         icon: 'item-git.jpg',
         name: 'Gitlab',
-        txt: '管理员-Json',
+        txt: 'Manager-Json',
         url: 'https://git.metathought.cc',
         btns: [
           {
@@ -145,31 +153,8 @@
       {
         icon: 'item-maven.jpg',
         name: 'Maven Repository',
-        txt: '管理员-Tom',
+        txt: 'Manager-Tom',
         url: 'http://18.140.217.17:8081/',
-        btns: [
-          {
-            name: '',
-            env: 'dev',
-            url: '',
-          },
-          {
-            name: '',
-            env: 'uat',
-            url: '',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: '',
-          }
-        ]
-      },
-      {
-        icon: 'item.yearning.png',
-        name: 'SQL审核平台',
-        txt: '管理员-Tom',
-        url: 'http://18.140.217.17:8000/#/login',
         btns: [
           {
             name: '',
@@ -191,47 +176,20 @@
       {
         icon: 'item-sky.jpeg',
         name: 'SkyWalking',
-        txt: '管理员-Tom',
+        txt: 'Manager-Romeo',
         btns: [
           {
             name: '',
-            env: 'test',
-            url: 'http://18.141.89.112:9094/',
+            env: 'TEST',
+            url: 'http://18.143.171.83:9094/',
           },
           {
             name: '',
-            env: 'prod',
-            url: 'http://3.1.19.141:9094/',
+            env: 'PROD',
+            url: 'http://54.173.216.161:9094/',
           }
         ]
-      },
-      {
-        icon: 'item-feishu.jpeg',
-        name: '日报',
-        txt: '管理员-Romeo',
-        url: 'https://y5ycni7qd2h.sg.larksuite.com/wiki/wiklgE9GuzorCkoH47avTZq9HDc',
-        btns: [
-          
-        ]
-      },
-      {
-        icon: 'item-feishu.jpeg',
-        name: '待办清单',
-        txt: '管理员-Romeo',
-        url: 'https://y5ycni7qd2h.sg.larksuite.com/wiki/Ywntww5Tciu4PIkk2lGlkVMLguc',
-        btns: [
-          
-        ]
-      },
-      {
-        icon: 'item-feishu.jpeg',
-        name: 'Wiki',
-        txt: '管理员-Json',
-        url: 'https://y5ycni7qd2h.sg.larksuite.com/wiki/MIPbwfeRAiL3CukHhgZlH8fngQd',
-        btns: [
-          
-        ]
-      },
+      }
     ]
   },
   // 架构运维工具
@@ -242,133 +200,103 @@
       {
         icon: 'item-pz.jpg',
         name: 'Nacos',
-        txt: '管理员-Tom',
+        txt: 'Manager-Romeo',
         url: '',
         btns: [
           {
             name: '',
-            env: 'dev',
-            url: 'http://52.76.214.91:8848/nacos/',
+            env: 'TEST',
+            url: 'http://54.254.244.133:8848/nacos',
           },
           {
             name: '',
-            env: 'test',
-            url: 'http://18.141.89.112:8848/nacos/',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: 'http://18.141.189.237:8848/nacos/',
+            env: 'PROD',
+            url: 'http://34.236.67.97:8848/nacos',
           }
         ]
       },
       {
-        icon: 'item-xxl.jpg',
-        name: 'xxl-job',
-        txt: '管理员-Tom',
+        icon: 'item-hazelcast.png',
+        name: 'Hazelcast Management',
+        txt: 'Manager-',
         url: '',
         btns: [
           {
             name: '',
-            env: 'dev',
-            url: 'http://52.76.214.91:9091/xxl-job-admin/',
-          },
-          {
-            name: '',
-            env: 'test',
-            url: 'http://18.141.89.112:9091/xxl-job-admin/',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: 'http://18.141.189.237:10001/xxl-job-admin/',
+            env: 'TEST',
+            url: 'http://54.254.244.133:5880/',
           }
         ]
       },
       {
-        icon: 'item-minio.jpg',
-        name: 'MinIO',
-        txt: '管理员-Tom',
+        icon: 'item-portainer.jpg',
+        name: 'Portainer',
+        txt: 'Manager-Romeo',
         url: '',
         btns: [
           {
             name: '',
-            env: 'dev',
-            url: 'https://oss-console-dev.metathought.cc/',
+            env: 'TEST',
+            url: 'https://54.254.244.133:9443/',
           },
           {
             name: '',
-            env: 'test',
-            url: 'https://oss-console-test.metathought.cc/',
-          }
-        ]
-      },
-      {
-        icon: 'item-rocketmq.jpg',
-        name: 'RocketMQ',
-        txt: '管理员-Tom',
-        url: '',
-        btns: [
-          {
-            name: '',
-            env: 'dev',
-            url: 'http://52.76.214.91:9092/',
-          },
-          {
-            name: '',
-            env: 'test',
-            url: 'http://18.143.227.206:9092/',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: 'http://3.1.19.141:9092/'
+            env: 'PROD',
+            url: 'https://34.236.67.97:9443/',
           }
         ]
       },
       {
         icon: 'item-redis.jpeg',
         name: 'Redis',
-        txt: '管理员-Tom',
+        txt: 'Manager-Romeo',
         url: '',
         btns: [
           {
             name: '',
-            env: 'dev',
-            url: 'http://52.76.214.91:9093/',
+            env: 'TEST',
+            url: 'http://54.254.244.133:8001/',
           },
           {
             name: '',
-            env: 'test',
-            url: 'http://18.143.227.206:9093/',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: 'http://3.1.19.141:9093/',
+            env: 'PROD',
+            url: '',
           }
         ]
       },
       {
         icon: 'item-kibana.jpg',
         name: 'Kibana',
-        txt: '管理员-Tom',
+        txt: 'Manager-',
         url: '',
         btns: [
           {
             name: '',
-            env: 'dev',
-            url: 'http://52.76.214.91:5601/',
+            env: 'TEST',
+            url: 'http://18.143.171.83:5601/',
           },
           {
             name: '',
-            env: 'test',
-            url: 'http://18.141.89.112:5601/',
+            env: 'PROD',
+            url: 'http://54.173.216.161:5601/',
+          }
+        ]
+      },
+      {
+        icon: 'item-kafka.png',
+        name: 'Kafka Control Center',
+        txt: 'Manager-',
+        url: '',
+        btns: [
+          {
+            name: '',
+            env: 'TEST',
+            url: 'http://54.254.244.133:9021/s',
           },
           {
             name: '',
-            env: 'prod',
-            url: 'http://3.1.19.141:5601/',
+            env: 'PROD',
+            url: '',
           }
         ]
       },
