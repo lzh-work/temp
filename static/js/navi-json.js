@@ -5,69 +5,54 @@
     icon: 'fa-pause',
     naviData: [
       {
-        icon: 'favicon.ico',
-        name: 'Skybooking Net',
-        txt: '',
+        icon: 'logo.png',
+        name: 'H5',
+        txt: 'Manager-An',
         url: '',
         btns: [
           {
             name: '',
             env: 'TEST',
-            url: 'http://test.skybooking.net',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'https://skybooking.net',
-          },
-        ]
-      },
-      {
-        icon: 'favicon.ico',
-        name: 'Skybooking H5',
-        txt: '',
-        url: '',
-        btns: [
-          {
-            name: '',
-            env: 'TEST',
-            url: 'http://test-h5.skybooking.net/',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'http://skybooking.metathought.cc/',
+            url: 'https://test-mh5.metathought.co/',
           }
         ]
       },
       {
-        icon: 'favicon.ico',
-        name: 'Skybooking Backoffice',
-        txt: '',
+        icon: 'logo.png',
+        name: 'KIOSK H5',
+        txt: 'Manager-An',
         url: '',
         btns: [
           {
             name: '',
             env: 'TEST',
-            url: 'http://test.skybookingadmin.net',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'http://skybookingadmin.net',
-          },
+            url: 'https://test-mk.metathought.co/',
+          }
         ]
       },
       {
-        icon: 'favicon.ico',
-        name: 'Skybooking backoffice new',
-        txt: '',
+        icon: 'logo.png',
+        name: '商户后台(MPOS)',
+        txt: 'Manager-June C',
         url: '',
         btns: [
           {
             name: '',
             env: 'TEST',
-            url: 'http://54.254.244.133:6007/',
+            url: 'https://test-mpos.metathought.co/',
+          }
+        ]
+      },
+      {
+        icon: 'logo.png',
+        name: '运营后台(MBO)',
+        txt: 'Manager-June C',
+        url: '',
+        btns: [
+          {
+            name: '',
+            env: 'TEST',
+            url: 'https://test-mbo.metathought.co/',
           },
         ]
       },
@@ -87,13 +72,13 @@
         btns: [
           {
             name: '',
-            env: 'FLIGHT',
-            url: 'https://www.figma.com/file/vquvLIDD9WH7kQrrHXxkJm/Flight-Booking?type=design&mode=design&t=ByNMhEW6W1jU6pGL-0',
+            env: 'H5 KIOSK STAFF',
+            url: 'https://www.figma.com/file/JUhqi31E2bwYxeKSuqnTMu/H5---Food-Ordering?type=design&node-id=0-1&mode=design&t=PGG8rsn7IdYxSpOQ-0',
           },
           {
             name: '',
-            env: 'HOTEL',
-            url: 'https://www.figma.com/file/BWRaXDQkicI8vKMdJxF7HN/Hotel-Booking?type=design&mode=design&t=ByNMhEW6W1jU6pGL-0',
+            env: 'MBO MPOS',
+            url: 'https://www.figma.com/file/P9FVKkB4yDDunnzZv1mr9n/Food-Ordering---Merchant-Back-Office?type=design&mode=design&t=PGG8rsn7IdYxSpOQ-0',
           },
         ]
       },
@@ -101,24 +86,13 @@
         icon: 'item-jira.jpg',
         name: 'JIRA',
         txt: 'Manager-Ramviswa',
-        url: 'https://u-pay.atlassian.net/jira/software/projects/OTA/boards/43',
-        btns: [
-          {
-            name: '',
-            env: 'dev',
-            url: '',
-          },
-          {
-            name: '',
-            env: 'uat',
-            url: '',
-          },
-          {
-            name: '',
-            env: 'prod',
-            url: '',
-          }
-        ]
+        url: 'https://u-pay.atlassian.net/jira/software/projects/FO/boards/44'
+      },
+      {
+        icon: 'item-feishu.jpeg',
+        name: '账号文档',
+        txt: 'Manager-Romeo',
+        url: 'https://w5ly7ee1gma.sg.larksuite.com/wiki/HQJbwrYT9iSWrjk0WHWlJmbSgqc?from=from_copylink'
       }
     ]
   },
@@ -131,7 +105,7 @@
         icon: 'item-git.jpg',
         name: 'Gitlab',
         txt: 'Manager-Json',
-        url: 'https://git.metathought.cc',
+        url: 'https://git7.obsopato.com/',
         btns: [
           {
             name: '',
@@ -181,12 +155,7 @@
           {
             name: '',
             env: 'TEST',
-            url: 'http://18.143.171.83:9094/',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'http://54.173.216.161:9094/',
+            url: 'https://test-swalking.metathought.co',
           }
         ]
       }
@@ -206,25 +175,7 @@
           {
             name: '',
             env: 'TEST',
-            url: 'http://54.254.244.133:8848/nacos',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'http://34.236.67.97:8848/nacos',
-          }
-        ]
-      },
-      {
-        icon: 'item-hazelcast.png',
-        name: 'Hazelcast Management',
-        txt: 'Manager-',
-        url: '',
-        btns: [
-          {
-            name: '',
-            env: 'TEST',
-            url: 'http://54.254.244.133:5880/',
+            url: 'http://13.228.102.178:8848/nacos/',
           }
         ]
       },
@@ -237,12 +188,7 @@
           {
             name: '',
             env: 'TEST',
-            url: 'https://54.254.244.133:9443/',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'https://34.236.67.97:9443/',
+            url: 'https://test-mportainer.metathought.co/',
           }
         ]
       },
@@ -255,7 +201,7 @@
           {
             name: '',
             env: 'TEST',
-            url: 'http://54.254.244.133:8001/',
+            url: '',
           },
           {
             name: '',
@@ -263,43 +209,7 @@
             url: '',
           }
         ]
-      },
-      {
-        icon: 'item-kibana.jpg',
-        name: 'Kibana',
-        txt: 'Manager-',
-        url: '',
-        btns: [
-          {
-            name: '',
-            env: 'TEST',
-            url: 'http://18.143.171.83:5601/',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: 'http://54.173.216.161:5601/',
-          }
-        ]
-      },
-      {
-        icon: 'item-kafka.png',
-        name: 'Kafka Control Center',
-        txt: 'Manager-',
-        url: '',
-        btns: [
-          {
-            name: '',
-            env: 'TEST',
-            url: 'http://54.254.244.133:9021/s',
-          },
-          {
-            name: '',
-            env: 'PROD',
-            url: '',
-          }
-        ]
-      },
+      }
     ]
   }
 ]
