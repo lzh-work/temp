@@ -181,12 +181,12 @@
           {
             name: '',
             env: 'TEST',
-            url: 'http://18.143.171.83:9094/',
+            url: 'https://test-swalking.metathought.co',
           },
           {
             name: '',
             env: 'PROD',
-            url: 'http://54.173.216.161:9094/',
+            url: 'https://swalking.metathought.co',
           }
         ]
       }
@@ -237,12 +237,12 @@
           {
             name: '',
             env: 'TEST',
-            url: 'https://54.254.244.133:9443/',
+            url: 'https://test-sportainer.metathought.co',
           },
           {
             name: '',
             env: 'PROD',
-            url: 'https://34.236.67.97:9443/',
+            url: 'https://sportainer.metathought.co',
           }
         ]
       },
